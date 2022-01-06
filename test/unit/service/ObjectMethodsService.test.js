@@ -21,6 +21,7 @@ describe('ObjectMethodsService Suite Tests', () => {
 
     const object = service.getEnhancedObject(rawObject);
 
+
     const result = object + 3;
     const expected = 24;
 
